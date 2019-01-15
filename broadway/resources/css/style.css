@@ -1,8 +1,11 @@
 .main_container{
   text-align: center;
+  width: auto;
+  margin-left: 25px;
 }
 
 .header_container{
+
   background-image: url('../images/the-flatiron-building.png');
   background-repeat: no-repeat;
   height: auto;
@@ -46,11 +49,13 @@ p{
 #Design_headline{
   color: white;
   background-image: url('../images/the-flatiron-building.png');
+  background-repeat: no-repeat;
 }
 
 
 footer{
   background-image: url('../images/the-flatiron-building.png');
+  background-repeat: no-repeat;
 }
 #copyright{
   text-align: left;
