@@ -12,6 +12,7 @@ header{
   display: flex;
   width: 100%;
   position: fixed;
+  top: -1px;
   align-items: center;
   height: 69px;
   border-bottom: 1px solid seashell;
@@ -53,6 +54,9 @@ nav a{
 
 
 .banner{
+  display: flex;
+  justify-content: center;
+  align-content: center;
   height: 700px;
   width: 1200px;
   background-position: center;
@@ -130,6 +134,7 @@ nav a{
 
 .city_container{
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-around;
   height: 300px;
   width: 100%;
